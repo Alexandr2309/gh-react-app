@@ -1,0 +1,1 @@
+import React from 'react';const TotalCount = ({list, display}) => {  return (    <div className="count">      <div className="count__main">        Результатов всего: {list.length} <br/>        Отображается в списке: {display}      </div>    </div>  );};export default TotalCount;
